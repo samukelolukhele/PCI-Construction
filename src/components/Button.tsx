@@ -11,7 +11,7 @@ type BProps = {
 const Button = ({ to, children, color, className }: BProps) => {
   return (
     <Link
-      className={`${className} py-2 w-[120px] ${
+      className={`${className} py-4 w-[120px] text-xl ${
         color === "primary"
           ? "bg-brand text-white"
           : "bg-brandSecondary text-black"

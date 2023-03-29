@@ -14,7 +14,7 @@ const Hero = () => {
           aspernatur facilis ad! Aspernatur, obcaecati nobis molestiae dolorem
           quae minima omnis.
         </p>
-        <Button to="/services" color="primary" className="w-full lg:w-[120px]">
+        <Button to="/services" color="primary" className="w-full lg:w-[160px]">
           Services
         </Button>
       </div>
