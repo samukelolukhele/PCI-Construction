@@ -12,10 +12,30 @@ body {
   padding: 0px;
 }
 
+p {
+  @apply text-lg;
+}
+
 .container {
   @apply px-4 lg:px-8;
 }
 
 .header-text {
   @apply font-bold text-6xl;
+}
+
+.text-gradient-main {
+  @apply text-transparent bg-clip-text bg-gradient-to-tr from-brandSecondary  to-white;
+}
+
+.btn-primary {
+  @apply bg-brand text-white;
+}
+
+.btn-secondary {
+  @apply bg-brandSecondary text-black;
+}
+
+.btn-outline {
+  @apply bg-none border-2 border-white text-white hover:bg-white hover:text-black;
 }

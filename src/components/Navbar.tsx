@@ -17,7 +17,7 @@ const Navbar = () => {
       <div
         className={`${
           mobileActive ? activeStyling : inactiveStyling
-        } ease-in duration-300 flex flex-col lg:flex-row items-center justify-center gap-4 lg:relative lg:opacity-100 lg:translate-y-0`}
+        } ease-in duration-300 flex flex-col lg:flex-row items-center text-brandSecondary justify-center gap-4 lg:relative lg:opacity-100 lg:translate-y-0`}
       >
         <Link to="/">Home</Link>
         <Link to="/about">About</Link>
