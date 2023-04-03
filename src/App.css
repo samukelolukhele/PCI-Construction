@@ -16,8 +16,18 @@ p {
   @apply text-lg;
 }
 
+img {
+  object-fit: cover;
+}
+
 .container {
-  @apply px-4 lg:px-8;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 40px;
+}
+
+.border-radius-perspective {
+  perspective: 1px;
 }
 
 .header-text {
@@ -38,4 +48,8 @@ p {
 
 .btn-outline {
   @apply bg-none border-2 border-white text-white hover:bg-white hover:text-black;
+}
+
+.btn-arrow {
+  @apply flex items-center justify-center hover:bg-brandBg hover:text-white duration-300 text-4xl outline-none p-4 border-brandBg text-brandBg rounded-lg border-2;
 }
