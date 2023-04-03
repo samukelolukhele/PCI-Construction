@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 type BProps = {
   children: React.ReactNode;
   to: string | "/" | "/about" | "/contact" | "/services";
-  color: "primary" | "secondary" | "outline";
+  color: "primary" | "secondary" | "outline" | "tetiary";
   className?: string;
 };
 

@@ -45,8 +45,6 @@ const Services = () => {
   };
 
   const onNext = () => {
-    console.log(isMobile);
-
     if (isMobile)
       return setPosition((pos) => (pos === slides.length - 1 ? 0 : pos + 1));
 
