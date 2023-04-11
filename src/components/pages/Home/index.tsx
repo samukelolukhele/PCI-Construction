@@ -5,6 +5,7 @@ import About from "./About";
 import Services from "./Services";
 import Quote from "./Quote";
 import WhyUs from "./WhyUs";
+import ScrollToTop from "../../ScrollToTop";
 
 const Home = () => {
   return (
@@ -15,6 +16,7 @@ const Home = () => {
       <Services />
       <Quote />
       <WhyUs />
+      <ScrollToTop />
     </div>
   );
 };
