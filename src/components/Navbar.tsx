@@ -14,21 +14,24 @@ const NavLinks = ({ active }: NLProps) => {
       className={`${
         active ? activeStyling : inactiveStyling
       } ease-in duration-300 flex flex-col lg:flex-row items-center [&>:nth-child(odd)]:bg-indigo-700 [&>:nth-child(even)]:bg-indigo-800 [&>:nth-child(even)]:lg:bg-transparent
-       [&>:nth-child(odd)]:lg:bg-transparent [&>*]:w-full [&>*]:text-center [&>div]:py-8 [&?div]:lg:py-0 lg:py-0 [&>*]:items-center font-extralight lg:font-semibold text-xl 
-       lg:w-fit lg:bg-transparent lg:text-brandSecondary py-8 w-full text-white justify-center lg:gap-4 lg:relative lg:opacity-100 lg:translate-y-0`}
+       [&>:nth-child(odd)]:lg:bg-transparent lg:py-0 font-extralight lg:font-semibold text-xl 
+       lg:w-fit lg:text-brandSecondary py-8 w-full text-white justify-center lg:gap-4 lg:relative lg:opacity-100 lg:translate-y-0`}
     >
-      <div>
-        <Link to="/">Home</Link>
-      </div>
-      <div>
-        <Link to="/about">About</Link>
-      </div>
-      <div>
-        <Link to="/services">Services</Link>
-      </div>
-      <div>
-        <Link to="/contact">Contact</Link>
-      </div>
+      <Link className="w-full text-center py-8" to="/">
+        Home
+      </Link>
+
+      <Link className="w-full text-center py-8" to="/about">
+        About
+      </Link>
+
+      <Link className="w-full text-center py-8" to="/services">
+        Services
+      </Link>
+
+      <Link className="w-full text-center py-8" to="/contact">
+        Contact
+      </Link>
     </div>
   );
 };
