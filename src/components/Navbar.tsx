@@ -46,13 +46,13 @@ const Navbar = () => {
   const { isTablet } = useMedia();
 
   return (
-    <nav className="relative flex flex-col bg-brandBg text-white items-center justify-between w-full py-8 lg:py-4">
+    <nav className="relative flex flex-col bg-brandBg text-white items-center justify-between w-full py-4 lg:py-4">
       <div className="w-full flex justify-between items-center container">
         <div className="">
           <img src="/images/Logos/Logo.svg" alt="" className="" />
         </div>
         {!isTablet && (
-          <NavLinks click={() => setMobileActive(false)} active={!isTablet} />
+          <NavLinks click={() => setMobileActive(false)} active={isTablet} />
         )}
         <div
           onClick={() => setMobileActive(!mobileActive)}
