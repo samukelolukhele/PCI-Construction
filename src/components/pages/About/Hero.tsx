@@ -3,10 +3,10 @@ import Button from "../../Button";
 
 const Hero = () => {
   return (
-    <div className="relative w-full bg-brandBg h-full py-4 rounded-b-[2rem] mb--12 z-[-3]">
+    <div className="relative w-full bg-brandBg h-full py-4 rounded-b-[2rem] mb-44 z-[-3]">
       <div className="container relative flex flex-col">
         <div className="flex flex-col lg:flex-row gap-4 text-left justify-between h-full">
-          <div className="flex flex-col justify-center gap-4 md:gap-2 items-start md:w-9/12 lg:w-4/12">
+          <div className="flex flex-col justify-center gap-4 md:gap-8 items-start md:w-9/12 lg:w-4/12">
             <h1 className="header-text text-left text-gradient-main">
               Get To Know Us
             </h1>
@@ -21,7 +21,7 @@ const Hero = () => {
           </div>
           <div className="flex justify-center items-center lg:w-6/12 h-full">
             <img
-              className="relative top-8 h-[400px] lg:top-0 rounded-[2rem] w-full "
+              className="relative top-8 h-[400px] md:h-[500px] lg:top-0 rounded-[2rem] w-full "
               src="/images/About-Hero-1.jpg"
             />
           </div>
