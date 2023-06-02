@@ -4,7 +4,7 @@ import Button from "../../Button";
 const Hero = () => {
   return (
     <div className="flex flex-col lg:flex-row text-white lg:items-center lg:justify-between bg-brandBg rounded-b-[2rem] lg:h-[580px] ">
-      <div className="flex text-left lg:text-left flex-col items-center lg:items-start gap-6 container py-4 lg:w-10/12">
+      <div className="flex text-left lg:text-left flex-col items-start gap-6 container py-4 lg:w-10/12">
         <h1 className="text-6xl bg-clip-text text-transparent bg-gradient-to-tr from-brandSecondary  to-white font-bold">
           Building The Future
         </h1>
@@ -17,7 +17,7 @@ const Hero = () => {
         <Button
           to="/services"
           color="primary"
-          className="w-full lg:w-[160px] md:w-6/12"
+          className="w-full mx-auto lg:mx-0 lg:w-[160px] md:w-6/12"
         >
           Services
         </Button>

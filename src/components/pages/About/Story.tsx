@@ -1,7 +1,11 @@
-import React from "react";
-import Button from "../../Button";
+import React, { useRef } from "react";
+import Button, { BasicButton } from "../../Button";
 
-const Story = () => {
+type SProps = {
+  valuesRef: React.MutableRefObject<HTMLElement | any>;
+};
+
+const Story = ({ valuesRef }: SProps) => {
   return (
     <div className="py-8">
       <div className="container">
@@ -42,9 +46,14 @@ const Story = () => {
                 <Button to="/contact" color="primary">
                   Contact us
                 </Button>
-                <Button to="/contact" color="outline-dark">
+                <BasicButton
+                  color="outline-dark"
+                  onClick={() =>
+                    valuesRef.current?.scrollIntoView({ behavior: "smooth" })
+                  }
+                >
                   Meet our team
-                </Button>
+                </BasicButton>
               </div>
             </div>
             <div className="relative">

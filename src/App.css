@@ -57,3 +57,7 @@ img {
 .btn-arrow {
   @apply flex items-center justify-center hover:bg-brandBg hover:text-white duration-300 text-4xl outline-none p-4 border-brandBg text-brandBg rounded-lg border-2;
 }
+
+.btn-arrow-alt {
+  @apply flex items-center justify-center hover:bg-white hover:text-brandBg duration-300 text-4xl outline-none p-4 border-white text-white rounded-lg border-2;
+}

@@ -6,6 +6,7 @@ type IProps = {
   iconBg: string;
   header: string;
   iconClassName?: string;
+  className?: string;
   children: React.ReactNode;
 };
 
@@ -15,12 +16,13 @@ const IconWidget = ({
   iconClassName,
   header,
   children,
+  className,
 }: IProps) => {
   return (
     <div
-      className={`w-full flex flex-col items-center justify-center gap-4 px-8 py-8 bg-brandSecondary rounded-lg`}
+      className={`${className} w-full flex flex-col items-center justify-center gap-4 px-8 py-8 bg-brandSecondary rounded-lg`}
     >
-      <div className={`p-4 ${iconBg} rounded-full text-white`}>
+      <div className={`p-8 ${iconBg} rounded-full text-white`}>
         <Icon className={iconClassName} />
       </div>
       <div className="flex flex-col gap-4">

@@ -1,6 +1,5 @@
 import React from "react";
 import { IconType } from "react-icons";
-import { motion } from "framer-motion";
 
 type SProps = {
   image: string;
@@ -11,7 +10,7 @@ type SProps = {
 
 const ServiceSlide = ({ image, Icon, children, heading }: SProps) => {
   return (
-    <motion.div className="relative min-w-[300px] lg:min-w-[550px] flex flex-col gap-4 items-center ">
+    <div className="relative min-w-[300px] lg:min-w-[550px] flex flex-col gap-4 items-center ">
       <img
         src={image}
         alt=""
@@ -24,7 +23,7 @@ const ServiceSlide = ({ image, Icon, children, heading }: SProps) => {
         <h1 className="text-2xl font-bold text-brandBg">{heading}</h1>
         <p className="text-brandBg font-light">{children}</p>
       </div>
-    </motion.div>
+    </div>
   );
 };
 
