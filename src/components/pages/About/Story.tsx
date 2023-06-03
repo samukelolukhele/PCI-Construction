@@ -2,10 +2,10 @@ import React, { useRef } from "react";
 import Button, { BasicButton } from "../../Button";
 
 type SProps = {
-  valuesRef: React.MutableRefObject<HTMLElement | any>;
+  teamRef: React.MutableRefObject<HTMLElement | any>;
 };
 
-const Story = ({ valuesRef }: SProps) => {
+const Story = ({ teamRef }: SProps) => {
   return (
     <div className="py-8">
       <div className="container">
@@ -49,7 +49,7 @@ const Story = ({ valuesRef }: SProps) => {
                 <BasicButton
                   color="outline-dark"
                   onClick={() =>
-                    valuesRef.current?.scrollIntoView({ behavior: "smooth" })
+                    teamRef.current?.scrollIntoView({ behavior: "smooth" })
                   }
                 >
                   Meet our team

@@ -2,6 +2,10 @@ import React from "react";
 import SectionText from "../../SectionText";
 import Button, { BasicButton } from "../../Button";
 
+type MProps = {
+  valuesRef: React.MutableRefObject<HTMLDivElement | null>;
+};
+
 type MSProps = {
   spanText: string;
   header: string;
@@ -9,7 +13,7 @@ type MSProps = {
   children: React.ReactNode;
 };
 
-const Mission = () => {
+const Mission = ({ valuesRef }: MProps) => {
   return (
     <div className="py-12 md:pb-24 my-12 bg-brandBg rounded-3xl" id="#mission">
       <div className="container flex flex-col lg:flex-row items-center justify-between gap-8">
@@ -29,7 +33,14 @@ const Mission = () => {
             <Button to="/contact" color="primary">
               Contact us
             </Button>
-            <BasicButton color="outline">Our Values</BasicButton>
+            <BasicButton
+              color="outline"
+              onClick={() =>
+                valuesRef.current?.scrollIntoView({ behavior: "smooth" })
+              }
+            >
+              Our Values
+            </BasicButton>
           </div>
         </div>
         <div className="flex md:items-center md:justify-center w-full lg:w-fit flex-col md:flex-row gap-2 md:gap-8">
