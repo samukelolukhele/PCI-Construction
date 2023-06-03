@@ -70,7 +70,7 @@ const Values = forwardRef<HTMLDivElement>((_, scrollRef) => {
   };
 
   return (
-    <div ref={scrollRef} className="py-12 bg-brandBg">
+    <div ref={scrollRef} className="py-12 bg-brandBg rounded-3xl">
       <div className="container gap-8 flex flex-col overflow-hidden">
         <div className="flex items-center flex-col gap-4 md:flex-row md:justify-between">
           <SectionText
