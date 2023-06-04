@@ -18,7 +18,7 @@ const NavLinks = ({ active, click }: NLProps) => {
       className={`${
         active ? activeStyling : inactiveStyling
       } ease-in duration-300 flex flex-col lg:flex-row items-center [&>:nth-child(odd)]:bg-indigo-700 [&>:nth-child(even)]:bg-indigo-800 [&>:nth-child(even)]:lg:bg-transparent
-       [&>:nth-child(odd)]:lg:bg-transparent lg:py-0 font-extralight lg:font-semibold text-xl 
+       [&>:nth-child(odd)]:lg:bg-transparent lg:py-0 font-extralight lg:font-normal text-xl 
        lg:w-fit lg:text-brandSecondary py-8 w-full text-white justify-center lg:gap-4 lg:relative lg:opacity-100 lg:translate-y-0`}
     >
       <Link onClick={click} className="w-full text-center py-8" to="/">
@@ -27,10 +27,6 @@ const NavLinks = ({ active, click }: NLProps) => {
 
       <Link onClick={click} className="w-full text-center py-8" to="/about">
         About
-      </Link>
-
-      <Link onClick={click} className="w-full text-center py-8" to="/services">
-        Services
       </Link>
 
       <Link onClick={click} className="w-full text-center py-8" to="/contact">

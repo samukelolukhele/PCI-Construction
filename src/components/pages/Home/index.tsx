@@ -9,7 +9,7 @@ import ScrollToTop from "../../ScrollToTop";
 
 const Home = () => {
   return (
-    <div>
+    <>
       <Hero />
       <Companies />
       <About />
@@ -17,7 +17,7 @@ const Home = () => {
       <Quote />
       <WhyUs />
       <ScrollToTop />
-    </div>
+    </>
   );
 };
 
