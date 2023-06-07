@@ -14,13 +14,23 @@ const Hero = () => {
           aspernatur facilis ad! Aspernatur, obcaecati nobis molestiae dolorem
           quae minima omnis.
         </p>
-        <Button
-          to="/services"
-          color="primary"
-          className="w-full mx-auto lg:mx-0 lg:w-[160px] md:w-6/12"
-        >
-          Services
-        </Button>
+
+        <div className="w-full flex flex-col md:flex-row gap-4">
+          <Button
+            to="/contact"
+            color="primary"
+            className="w-full mx-auto lg:mx-0 lg:w-[160px] md:w-6/12"
+          >
+            Contact
+          </Button>
+          <Button
+            to="/about"
+            color="outline"
+            className="w-full mx-auto lg:mx-0 lg:px-4 md:w-6/12"
+          >
+            Learn More
+          </Button>
+        </div>
       </div>
       <div className="container">
         <img

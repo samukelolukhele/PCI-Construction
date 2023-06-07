@@ -47,11 +47,11 @@ const WhyUs = () => {
           </p>
         </div>
         <Button
-          to="/services"
+          to="/about"
           color="primary"
           className="lg:w-min lg:h-min lg:px-16 flex items-center gap-4 justify-center"
         >
-          Services
+          About
           <AiOutlineArrowRight />
         </Button>
       </div>
