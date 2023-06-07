@@ -5,6 +5,7 @@ import Mission from "./Mission";
 import Values from "./Values";
 import Team from "./Team";
 import Follow from "./Follow";
+import ScrollToTop from "../../ScrollToTop";
 
 const About = () => {
   const teamRef = useRef<HTMLDivElement | null>(null);
@@ -18,6 +19,7 @@ const About = () => {
       <Team ref={teamRef} />
       <Values ref={valuesRef} />
       <Follow />
+      <ScrollToTop />
     </div>
   );
 };
