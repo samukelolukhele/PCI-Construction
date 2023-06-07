@@ -26,6 +26,39 @@ img {
   padding: 0 40px;
 }
 
+.bg-gradient-main {
+  background-image: linear-gradient(
+    to bottom,
+    #16003b,
+    #50064f,
+    #89115a,
+    #bd2d5b,
+    #ea5455
+  );
+}
+
+.bg-gradient-secondary {
+  background-image: linear-gradient(
+    to right top,
+    #bccef8,
+    #c7b2ef,
+    #df90d0,
+    #f06d9a,
+    #ea5455
+  );
+}
+
+.bg-gradient-alt {
+  background-image: linear-gradient(
+    to right top,
+    #bccef8,
+    #8b97c8,
+    #606298,
+    #393169,
+    #16003b
+  );
+}
+
 .border-radius-perspective {
   perspective: 1px;
 }

@@ -72,10 +72,10 @@ const TeamCard = ({ img, name, role, children, className }: TCProps) => (
       src={img}
       className="object-cover h-[300px] md:h-[450px] lg:aspect-square rounded-t-3xl md:rounded-3xl md:w-10/12 lg:w-full"
     />
-    <div className="md:absolute md:w-6/12 bottom-[-50px] right-[-5px] lg:right-[-75px] p-8 bg-slate-400 flex flex-col rounded-b-3xl md:rounded-3xl">
+    <div className="md:absolute md:w-6/12 bottom-[-50px] right-[-5px] lg:right-[-75px] p-8 bg-gradient-secondary flex flex-col rounded-b-3xl md:rounded-3xl">
       <h1 className="font-bold text-3xl md:text-2xl text-white">{name}</h1>
       <p className="font-semibold text-brandBg mb-2">{role}</p>
-      <p className="text-slate-200">{children}</p>
+      <p className="text-gray-800">{children}</p>
     </div>
   </div>
 );

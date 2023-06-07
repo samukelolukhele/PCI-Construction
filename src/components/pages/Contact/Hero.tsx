@@ -27,7 +27,7 @@ const Hero = () => {
             iconBg="bg-orange-500"
             header="Send us an email"
             iconClassName="text-4xl"
-            className="text-center text-sm bg-slate-200 !px-4 !py-12 md:!px-8 md:!py-8 rounded-3xl"
+            className="text-center text-sm bg-gradient-secondary !px-4 !py-12 md:!px-8 md:!py-8 rounded-3xl"
           >
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
             <a
@@ -42,7 +42,7 @@ const Hero = () => {
             iconBg="bg-purple-500"
             header="Give us a call"
             iconClassName="text-4xl"
-            className="text-center text-sm bg-slate-200 !px-4 !py-12 md:!px-8 md:!py-8 rounded-3xl"
+            className="text-center text-sm bg-gradient-secondary !px-4 !py-12 md:!px-8 md:!py-8 rounded-3xl"
           >
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
             <a

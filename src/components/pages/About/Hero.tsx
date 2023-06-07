@@ -3,7 +3,7 @@ import Button from "../../Button";
 
 const Hero = () => {
   return (
-    <div className="relative w-full bg-brandBg h-full py-4 rounded-b-[2rem] mb-20 md:mb-44 z-[-3]">
+    <div className="relative w-full bg-gradient-main h-full py-4 rounded-b-[2rem] mb-20 md:mb-44 z-[-3]">
       <div className="container relative flex flex-col">
         <div className="flex flex-col lg:flex-row gap-4 text-left justify-between h-full">
           <div className="flex flex-col justify-center gap-4 md:gap-8 items-start md:w-9/12 lg:w-4/12">

@@ -1,7 +1,7 @@
 import React from "react";
 import { IconType } from "react-icons";
 
-type IProps = {
+export type IProps = {
   Icon: IconType;
   iconBg: string;
   header: string;

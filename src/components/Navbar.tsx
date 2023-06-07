@@ -29,6 +29,10 @@ const NavLinks = ({ active, click }: NLProps) => {
         About
       </Link>
 
+      {/* <Link onClick={click} className="w-full text-center py-8" to="/services">
+        Services
+      </Link> */}
+
       <Link onClick={click} className="w-full text-center py-8" to="/contact">
         Contact
       </Link>

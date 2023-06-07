@@ -12,10 +12,10 @@ const Footer = () => {
       to: "/about",
       text: "About",
     },
-    {
-      to: "/services",
-      text: "Services",
-    },
+    // {
+    //   to: "/services",
+    //   text: "Services",
+    // },
     {
       to: "/contact",
       text: "Contact",
