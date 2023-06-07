@@ -19,14 +19,14 @@ const Hero = () => {
           <Button
             to="/contact"
             color="primary"
-            className="w-full mx-auto lg:mx-0 lg:w-[160px] md:w-6/12"
+            className="w-full mx-auto lg:mx-0 lg:w-[180px] md:w-6/12"
           >
             Contact
           </Button>
           <Button
             to="/about"
             color="outline"
-            className="w-full mx-auto lg:mx-0 lg:px-4 md:w-6/12"
+            className="w-full mx-auto lg:mx-0 lg:w-[180px] md:w-6/12"
           >
             Learn More
           </Button>
