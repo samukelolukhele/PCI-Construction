@@ -16,21 +16,21 @@ const Team = forwardRef<HTMLDivElement>((_, ref) => {
       name: "Maggie Hill",
       role: "Chief Executive Officer",
       children:
-        "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aliquid, iste esse! Quis vel consequuntur similique.",
+        "I have always had a fascination of landmarks like the Eiffel Tower and The Statue of Liberty and that fascination quickly became a passion for engineering.",
     },
     {
       img: "/images/Team/Testimonial-2.jpg",
       name: "Liam Roberts",
       role: "Head Architect",
       children:
-        "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aliquid, iste esse! Quis vel consequuntur similique.",
+        "Desinging marvelous structures and seeing them come to life is why I love working with this company. There is no feeling like it.",
     },
     {
       img: "/images/Team/Testimonial-3.jpg",
       name: "Elena Faye",
       role: "Chief Financial Officer",
       children:
-        "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aliquid, iste esse! Quis vel consequuntur similique.",
+        "I have worked with many construction companies but never have I seen such robust cost manangement in projects. Seeing projects not exceed their budget is truly something unique to this company",
     },
   ];
 
@@ -44,13 +44,13 @@ const Team = forwardRef<HTMLDivElement>((_, ref) => {
           headerSize="text-4xl md:text-5xl"
           className="text-center lg:w-4/12 lg:text-left lg:sticky top-[24px] align-self h-min"
         >
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nihil
-          reprehenderit minus.nostrum adipisci consequatur repellendus placeat
-          officiis ex minima, soluta beatae quia odit, rerum id officia,
-          obcaecati itaque. Molestias, non! Unde dolore omnis inventore, quidem
-          eveniet ab eum earum sapiente totam voluptate. Corporis praesentium
-          ipsam optio unde minus voluptas, reprehenderit hic consequuntur,
-          sapiente quos minima facilis molestias incidunt voluptate nostrum?
+          At PCI Construction, construction is not just a job for us - it's our
+          passion. Our team consists of craftsmen who have honed their skills
+          from birth, ensuring that every project we undertake is executed with
+          the utmost precision and expertise. With years of experience and a
+          passion for perfection, our team of skilled craftsmen bring your
+          vision to life. From conceptualization to completion, every detail is
+          meticulously crafted and executed with precision.
         </SectionText>
         <div className="flex flex-col lg:w-6/12 gap-12 md:gap-24">
           {cards.map((c, index) => (

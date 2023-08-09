@@ -17,10 +17,10 @@ const Story = ({ teamRef }: SProps) => {
                 Craftsmen by Birth
               </h1>
               <p className="font-light">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Distinctio, tempore perspiciatis esse ipsa iure, recusandae
-                maiores numquam dignissimos soluta, mollitia expedita!
-                Consequuntur, odio exercitationem est quod vel enim iste in.
+                Quality is at the forefront of everything we do. From selecting
+                the finest materials to employing advanced construction
+                techniques, we leave no stone unturned in ensuring that every
+                aspect of your project meets and exceeds your expectations.
               </p>
             </div>
             <div className="relative">
@@ -35,12 +35,11 @@ const Story = ({ teamRef }: SProps) => {
           <div className="lg:w-3/6 flex flex-col gap-8 lg:flex-col-reverse justify-between">
             <div className="flex gap-8 lg:flex-col flex-col-reverse">
               <p className="font-light">
-                In nibh et sed sed faucibus bibendum purus egestas ornare
-                tristique id sociis et interdum faucibus nibh ut enim massa
-                sollicitudin amet curabi elementum amet nec quam sed quam rutrum
-                praesent pellentesque nisl odio diam odio massa accumsan purus
-                port bibendum pellentesq consequat et gravida et dui ornare
-                aliquam.
+                Whether you're envisioning a residential masterpiece or a
+                commercial landmark, PCI Construction has the experience and
+                skillset to turn your dreams into reality. We take pride in our
+                ability to bring even the most complex projects to life while
+                maintaining the highest standards of quality.
               </p>
               <div className="flex flex-col md:flex-row gap-4 md:gap-8">
                 <Button to="/contact" color="primary">

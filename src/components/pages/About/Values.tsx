@@ -30,28 +30,28 @@ const Values = forwardRef<HTMLDivElement>((_, scrollRef) => {
       iconBg: "bg-yellow-500",
       heading: "Safety",
       children:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum animi, ea officiis ipsam esse atque quasi delectus! Ratione vel tempore architecto neque, tenetur iure. Nemo rerum dicta ipsam magnam dolorum!",
+        "Safety is our first priority before undertaking any project. We take pride in our lack of accidents and incidents and we strive to protect everyone employed by us.",
     },
     {
       Icon: BsFillCalendar2DateFill,
       iconBg: "bg-teal-500",
       heading: "Deadlines",
       children:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum animi, ea officiis ipsam esse atque quasi delectus! Ratione vel tempore architecto neque, tenetur iure. Nemo rerum dicta ipsam magnam dolorum!",
+        "We understand the time constraints that come with construction. That's why we employ the best in the industry to provide you with the fastest solutions to ensure your deadlines are met.",
     },
     {
       Icon: BsPatchCheckFill,
       iconBg: "bg-indigo-500",
       heading: "Quality Assurance",
       children:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum animi, ea officiis ipsam esse atque quasi delectus! Ratione vel tempore architecto neque, tenetur iure. Nemo rerum dicta ipsam magnam dolorum!",
+        "We use ISO9000 standards in all our projects so you can be confident you are receiving only the best construction quality that is designed to stand the test of time.",
     },
     {
       Icon: BsPersonCircle,
       iconBg: "bg-green-500",
       heading: "Client Focused",
       children:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum animi, ea officiis ipsam esse atque quasi delectus! Ratione vel tempore architecto neque, tenetur iure. Nemo rerum dicta ipsam magnam dolorum!",
+        "We take pride in providing our clients with solutions that result in their vision being fully met.",
     },
   ];
 

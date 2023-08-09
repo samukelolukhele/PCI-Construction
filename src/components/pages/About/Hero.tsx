@@ -11,9 +11,10 @@ const Hero = () => {
               Get To Know Us
             </h1>
             <p className="font-light text-brandSecondary">
-              Sit velit varius quis risus pellentesque eget urna condimentum et
-              justo sollicitudin aliquet lorem pellentesque urna quam eu sed id
-              non lacus.
+              At PCI Construction, we are passionate about bringing your dreams
+              to life. With our extensive experience and expertise in the
+              construction industry, we have what it takes to turn your vision
+              into reality.
             </p>
             <Button to="/contact" color="primary" className="relative z-10">
               Contact

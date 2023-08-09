@@ -11,10 +11,7 @@ const Follow = () => {
           headerColor="text-brandBg"
           headerSize="text-5xl lg:text-6xl"
         >
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate
-          quae maxime consectetur atque delectus nobis vero harum? Ex, nihil ad
-          rerum expedita dolorum tempore illum, magni eligendi ab praesentium
-          error.
+          Check out our current and previous projects or just drop by to say hi!
         </SectionText>
         <div className="grid grid-cols-2 grid-rows-4 md:grid-cols-4 md:grid-rows-2 [&>img]:rounded-xl gap-4 lg:gap-8">
           <img

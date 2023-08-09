@@ -24,10 +24,10 @@ const Mission = ({ valuesRef }: MProps) => {
             sectionName="Our Mission"
             className="md:text-center lg:text-left"
           >
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta
-            impedit voluptatem aliquid aliquam, consequatur veritatis eos ut sit
-            molestiae perspiciatis ex ipsa assumenda, praesentium libero autem
-            expedita, ratione sunt numquam?
+            When you choose PCI Construction, you're not just choosing a
+            construction company - you're choosing a partner who is dedicated to
+            building a future that stands the test of time. Join us on this
+            journey as we shape the world one project at a time.
           </SectionText>
           <div className="flex flex-col md:flex-row gap-4 md:gap-8 md:justify-center lg:justify-start">
             <Button to="/contact" color="primary">
