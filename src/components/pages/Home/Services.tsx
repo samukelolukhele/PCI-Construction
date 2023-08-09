@@ -14,26 +14,26 @@ const Services = () => {
     {
       image: "/images/Home-Service-3.jpg",
       Icon: FaHammer,
-      text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Non quamducimus vitae maxime asperiores.",
+      text: "Our team of expert engineers will ensure nothing but the most exceptional results.",
       heading: "Building",
     },
     {
       image: "/images/Home-Service-1.jpg",
       heading: "Planning",
       Icon: FaPencilAlt,
-      text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Non quamducimus vitae maxime asperiores.",
+      text: "With our team of architects we will ensure nothing but the highest quality design plans for your project.",
     },
     {
-      image: "/images/Home-Service-2.jpg",
-      heading: "Painting",
+      image: "/images/Home-Hero.jpg",
+      heading: "Designing",
       Icon: FaPaintRoller,
-      text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Non quamducimus vitae maxime asperiores.",
+      text: "We will assist with desing to ensure you get the best result out of your project.",
     },
     {
       image: "/images/Home-Service-1.jpg",
       heading: "Welding",
       Icon: SiSparkfun,
-      text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Non quamducimus vitae maxime asperiores.",
+      text: "We provide the best welding services. We use ISO9000 standards so you can be sure of the highest quality service.",
     },
   ];
 
@@ -57,8 +57,9 @@ const Services = () => {
         <p className="font-bold text-brand">Our Services</p>
         <h1 className="header-text">High Quality Services</h1>
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Non quam
-          ducimus vitae maxime asperiores.
+          At PCI Construction, we are passionate about bringing your dreams to
+          life. With our extensive experience and expertise in the construction
+          industry, we have what it takes to turn your vision into reality.
         </p>
       </div>
       <div

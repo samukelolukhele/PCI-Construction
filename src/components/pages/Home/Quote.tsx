@@ -12,10 +12,10 @@ const Quote = () => {
           We can help you with your building project today
         </h1>
         <p className="font-light text-white z-10">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio,
-          tempore perspiciatis esse ipsa iure, recusandae maiores numquam
-          dignissimos soluta, mollitia expedita! Consequuntur, odio
-          exercitationem est quod vel enim iste in.
+          A Commitment to safety is our top priority. We adhere to strict safety
+          protocols and ensure that all our construction sites are safe for both
+          our workers and clients. You can have peace of mind knowing that your
+          project is being handled with utmost care and attention to safety.
         </p>
       </div>
       <div className="flex mx-2 lg:mx-0 flex-col md:flex-row gap-4 mb-10 relative z-10">

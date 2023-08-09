@@ -15,19 +15,19 @@ const WhyUs = () => {
       iconBg: "bg-yellow-400",
       Icon: BsFillCalculatorFill,
       header: "Affordable Solutions",
-      text: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolore possimus quisquam repellendus maxime.",
+      text: "We provide affordable quality construction services",
     },
     {
       iconBg: "bg-green-900",
       Icon: BsFillBuildingFill,
       header: "Fast Completion",
-      text: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolore possimus quisquam repellendus maxime.",
+      text: "We take pride in our fast yet reliable processes to ensure that any deadline is met",
     },
     {
       iconBg: "bg-indigo-700",
       Icon: BsFillPeopleFill,
       header: "Best Experts",
-      text: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolore possimus quisquam repellendus maxime.",
+      text: "Our team of highly qualified experts allow us to provide the best service in the industry.",
     },
   ];
 
@@ -40,10 +40,10 @@ const WhyUs = () => {
             How We Consistently Provide Excellence
           </h1>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas,
-            id neque. Quam, praesentium reiciendis ad animi cum, reprehenderit
-            aspernatur esse nihil eum obcaecati dolor ab placeat qui recusandae
-            sit vel.
+            We believe that collaboration is key to a successful construction
+            project. Our team of experienced professionals will work closely
+            with you from the initial planning stages to completion, ensuring
+            that your needs and preferences are met every step of the way.
           </p>
         </div>
         <Button

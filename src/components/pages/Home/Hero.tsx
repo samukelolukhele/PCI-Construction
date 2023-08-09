@@ -9,10 +9,10 @@ const Hero = () => {
           Building The Future
         </h1>
         <p className="font-light text-brandSecondary text-xl lg:w-9/12">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae
-          quidem neque, odit labore aut praesentium impedit enim, quam, amet
-          aspernatur facilis ad! Aspernatur, obcaecati nobis molestiae dolorem
-          quae minima omnis.
+          With a commitment to excellence, we pride ourselves on delivering
+          top-notch craftsmanship in every project we undertake. From the
+          foundation to the finishing touches, we pay attention to every detail
+          to ensure that the end result is nothing short of exceptional.
         </p>
 
         <div className="w-full flex flex-col md:flex-row gap-4">
