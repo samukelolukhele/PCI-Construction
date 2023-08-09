@@ -13,13 +13,10 @@ const Hero = () => {
           header="Contact us today!"
           className="text-center"
         >
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium
-          aliquid eum in quo nesciunt quas corrupti, enim dolore, eaque illo
-          sapiente sint hic, repellat veritatis exercitationem quod iste eos
-          alias? Laborum eius aliquam, dolore ad illo non repellat saepe
-          reprehenderit libero atque odio. Numquam rem voluptatem quidem facere
-          nemo voluptate ad beatae maiores eius, dolorem id consequatur tempora
-          nesciunt cumque.
+          We would love to hear about your project. Give us a call and speak
+          with one of our friendly representatives or just send us an email with
+          details about your project and one of our staff will get back to you
+          as soon as possible. We look forward to hearing from you.
         </SectionText>
         <div className="grid grid-cols-1 md:grid-cols-2 md:grid-rows-1 gap-4">
           <IconWidget
@@ -29,7 +26,9 @@ const Hero = () => {
             iconClassName="text-4xl"
             className="text-center text-sm bg-gradient-secondary !px-4 !py-12 md:!px-8 md:!py-8 rounded-3xl"
           >
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <p>
+              Our staff will get back to you as soon as they have the chance.
+            </p>
             <a
               href="mailto:info@pciconstruction.com"
               className="py-4 px-2 text-center bg-brandBg [&>p]:font-bold rounded-lg duration-500 hover:bg-brandBgSecondary cursor-pointer hover:translate-y-[-0.4rem]"
@@ -44,7 +43,10 @@ const Hero = () => {
             iconClassName="text-4xl"
             className="text-center text-sm bg-gradient-secondary !px-4 !py-12 md:!px-8 md:!py-8 rounded-3xl"
           >
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <p>
+              Speak to one of our friendly representatives. (Office hours
+              apply.)
+            </p>
             <a
               href="tel:(202)555-0173"
               className="py-4 px-2 text-center bg-brandBg [&>p]:font-bold rounded-lg duration-500 hover:bg-brandBgSecondary cursor-pointer hover:translate-y-[-0.4rem]"

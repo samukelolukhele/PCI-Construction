@@ -44,9 +44,7 @@ const Footer = () => {
             Subscribe to our newletter
           </h1>
           <p className="relative z-10">
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sed quod
-            amet reprehenderit quibusdam possimus voluptates doloribus, facere
-            dolorem,
+            Receive updates on our latest blog posts and our latest projects.
           </p>
           <input
             type="text"
