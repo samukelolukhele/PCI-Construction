@@ -11,7 +11,7 @@ const Hero = () => {
         <SectionText
           sectionName="Get In Touch"
           header="Contact us today!"
-          className="text-center"
+          className="text-center [&>p]:text-white"
         >
           We would love to hear about your project. Give us a call and speak
           with one of our friendly representatives or just send us an email with
