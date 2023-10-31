@@ -37,7 +37,7 @@ const About = () => {
       </div>
       <div className="lg:relative flex items-center px-10 justify-center absolute top-[660px] border-separate border-radius-perspective overflow-hidden lg:top-8 md:top-[470px] h-[400px] md:h-[540px] lg:h-[500px] w-full rounded-[2rem] md:!mx-auto lg:!-mr-32">
         <img
-          src="/images/Home-About.jpg"
+          src="/images/Home/Home-About.webp"
           alt=""
           className="h-full w-full border-separate overflow-hidden border-radius-perspective !rounded-[2rem] object-cover"
         />
