@@ -52,7 +52,7 @@ const Footer = () => {
             placeholder="Email Address"
           />
           <button
-            className="relative z-10 bg-brand rounded-lg py-3 hover:scale-110 duration-300 px-8 w-full lg:flex-1 lg:w-min text-white font-semibold text-lg"
+            className="relative z-10 bg-brand rounded-full py-3 hover:scale-110 duration-300 px-8 w-full lg:flex-1 lg:w-min text-white font-semibold text-lg"
             onClick={() =>
               alert("Thank you for subscribing to our newsletter!")
             }

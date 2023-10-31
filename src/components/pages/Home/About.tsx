@@ -7,8 +7,8 @@ const About = () => {
     Aos.init();
   }, []);
   return (
-    <div className="relative pt-12 md:mb-[400px] lg:mb-28 flex flex-col lg:flex-row-reverse bg-brandBg lg:bg-white mb-[280px] w-full">
-      <div className="flex container items-start flex-col gap-8 lg:h-[500px] lg:justify-center bg-brandBg pb-[200px] lg:pb-16 py-16  lg:pl-32 lg:rounded-l-lg">
+    <div className="relative pt-12 md:mb-[400px] lg:mb-28 flex flex-col lg:flex-row-reverse lg:bg-white mb-[280px] w-full">
+      <div className="flex container items-start flex-col gap-8 lg:h-[500px] lg:justify-center bg-brandBg pb-[200px] lg:pb-16 py-16 rounded-b-[2rem] lg:rounded-b-none lg:pl-32 lg:rounded-l-lg">
         <p className="text-brand font-bold">About Us</p>
         <h1
           className="header-text text-5xl lg:text-5xl text-gradient-main"
@@ -35,7 +35,7 @@ const About = () => {
           Learn More
         </Button>
       </div>
-      <div className="lg:relative flex items-center px-10 justify-center absolute top-[660px] border-separate border-radius-perspective overflow-hidden lg:top-8 md:top-[470px] h-[400px] md:h-[540px] lg:h-[500px] w-full rounded-[2rem] md:!mx-auto lg:!-mr-32">
+      <div className="lg:relative flex items-center px-10 justify-center absolute top-[720px] border-separate border-radius-perspective overflow-hidden lg:top-8 md:top-[470px] h-[400px] md:h-[540px] lg:h-[500px] w-full rounded-[2rem] md:!mx-auto lg:!-mr-32">
         <img
           src="/images/Home/Home-About.webp"
           alt=""

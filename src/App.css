@@ -13,7 +13,7 @@ body {
 }
 
 p {
-  @apply text-lg text-gray-500 font-extralight;
+  @apply text-2xl lg:text-lg text-gray-800 font-extralight;
 }
 
 img {

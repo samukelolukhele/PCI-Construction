@@ -63,7 +63,7 @@ const Services = () => {
         <h1 className="header-text" data-aos="fade-up" data-aos-duration="1000">
           High Quality Services
         </h1>
-        <p data-aos="fade-up" data-duration="1000">
+        <p data-aos="fade-up" data-aos-duration="1000" data-aos-offset="100">
           At PCI Construction, we are passionate about bringing your dreams to
           life. With our extensive experience and expertise in the construction
           industry, we have what it takes to turn your vision into reality.
