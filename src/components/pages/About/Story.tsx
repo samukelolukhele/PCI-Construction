@@ -27,8 +27,9 @@ const Story = ({ teamRef }: SProps) => {
               <div className="absolute bottom-[-20px] left-[-100px] rounded-3xl h-[350px] w-[300px] md:w-[700px] lg:w-[500px] hidden lg:block bg-brand" />
 
               <img
+                alt="about-story-1"
                 className="relative z-[1] w-full h-[400px] md:h-[600px] object-cover rounded-3xl"
-                src="/images/About-Story-1.jpg"
+                src="/images/About/About-Story-1.webp"
               />
             </div>
           </div>
@@ -58,8 +59,9 @@ const Story = ({ teamRef }: SProps) => {
             <div className="relative">
               <div className="absolute bottom-[-20px] left-[-100px] rounded-3xl h-[350px] w-[300px] md:w-[700px] lg:hidden bg-brand" />
               <img
+                alt="about-story-2"
                 className="relative z-[1] w-full h-[400px] md:h-[600px] object-cover rounded-3xl"
-                src="/images/About-Story-2.jpg"
+                src="/images/About/About-Story-2.webp"
               />
             </div>
           </div>

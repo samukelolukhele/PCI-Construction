@@ -31,7 +31,7 @@ export const BasicButton = ({
 }: BBProps) => {
   return (
     <button
-      className={`${className} py-4 px-8 text-xl btn-${color} font-semibold text-center rounded-xl ease-in duration-200 hover:scale-110`}
+      className={`${className} py-2 min-w-[150px] px-8 text-lg btn-${color} font-semibold text-center rounded-full ease-in duration-200 hover:scale-110`}
       onClick={onClick}
     >
       {children}

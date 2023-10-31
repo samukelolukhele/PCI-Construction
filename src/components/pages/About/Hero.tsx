@@ -23,7 +23,8 @@ const Hero = () => {
           <div className="flex justify-center items-center lg:w-6/12 h-full">
             <img
               className="relative top-8 h-[400px] md:h-[500px] lg:top-0 rounded-[2rem] w-full "
-              src="/images/About-Hero-1.jpg"
+              src="/images/About/About-Hero-1.webp"
+              alt="hero-main"
             />
           </div>
         </div>
@@ -31,11 +32,13 @@ const Hero = () => {
           <div className="w-[500px] aspect-square bg-brand z-[-2] rounded-3xl absolute left-[40%] bottom-20" />
           <img
             className="relative top-4 h-full rounded-[2rem] col-span-7 w-full object-cover"
-            src="/images/About-Hero-2.jpg"
+            src="/images/About/About-Hero-2.webp"
+            alt="hero-desktop-1"
           />
           <img
             className="h-full w-full rounded-[2rem] object-cover col-span-5"
-            src="/images/About-Hero-3.jpg"
+            src="/images/About/About-Hero-3.webp"
+            alt="hero-desktop-2"
           />
         </div>
       </div>

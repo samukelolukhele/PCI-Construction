@@ -35,7 +35,7 @@ const Team = forwardRef<HTMLDivElement>((_, ref) => {
   ];
 
   return (
-    <div ref={ref} className="py-12 md:mb-12">
+    <div ref={ref} className="py-12 md:mb-12" id="team">
       <div className="container flex flex-col lg:flex-row-reverse md:justify-between gap-8">
         <SectionText
           header="Meet the A-Team"
@@ -43,6 +43,9 @@ const Team = forwardRef<HTMLDivElement>((_, ref) => {
           sectionName="Our Team"
           headerSize="text-4xl md:text-5xl"
           className="text-center lg:w-4/12 lg:text-left lg:sticky top-[24px] align-self h-min"
+          animation="slide-left"
+          animationDuration="1000"
+          animationAnchor="#team"
         >
           At PCI Construction, construction is not just a job for us - it's our
           passion. Our team consists of craftsmen who have honed their skills

@@ -19,8 +19,8 @@ const NavLinks = ({ active, click }: NLProps) => {
       className={`${
         active ? activeStyling : inactiveStyling
       } ease-in duration-300 flex flex-col lg:flex-row items-center [&>:nth-child(odd)]:bg-indigo-700 [&>:nth-child(even)]:bg-indigo-800 [&>:nth-child(even)]:lg:bg-transparent
-       [&>:nth-child(odd)]:lg:bg-transparent lg:py-0 font-extralight lg:font-normal text-xl 
-       lg:w-fit lg:text-brandSecondary py-8 w-full text-white justify-center lg:gap-4 lg:relative lg:opacity-100 lg:translate-y-0`}
+       [&>:nth-child(odd)]:lg:bg-transparent lg:py-0 font-extralight lg:font-extralight text-xl 
+       lg:w-fit lg:text-brandSecondary py-8 w-full text-white justify-center lg:gap-10 lg:relative lg:opacity-100 lg:translate-y-0`}
     >
       <Link
         onClick={click}
