@@ -59,7 +59,7 @@ const Navbar = () => {
   const { isTablet } = useMedia();
 
   return (
-    <nav className="relative flex flex-col bg-brandBg text-white items-center justify-between w-full py-4 lg:py-0 mb--1">
+    <nav className="relative flex flex-col bg-brandBg text-white items-center justify-between w-full py-4 lg:py-0 mb-[-2px]">
       <div className="w-full flex justify-between items-center container">
         <div className="">
           <img src="/images/Logos/Logo.svg" alt="" className="" />
