@@ -1,10 +1,20 @@
-import React from "react";
+import { useEffect } from "react";
 import Button from "../../Button";
+import Aos from "aos";
+import "aos/dist/aos.css";
 
 const Hero = () => {
+  useEffect(() => {
+    Aos.init();
+  }, []);
+
   return (
     <div className="flex flex-col lg:flex-row text-white lg:items-center lg:justify-between bg-gradient-main rounded-b-[2rem] lg:h-[580px] ">
-      <div className="flex text-left lg:text-left flex-col items-start gap-6 container py-4 lg:w-10/12">
+      <div
+        className="flex text-left lg:text-left flex-col items-start gap-6 container py-4 lg:w-10/12"
+        data-aos="fade-up"
+        data-aos-duration="1000"
+      >
         <h1 className="text-6xl bg-clip-text text-transparent bg-gradient-to-tr from-brandSecondary  to-white font-bold">
           Building The Future
         </h1>
@@ -34,7 +44,7 @@ const Hero = () => {
       </div>
       <div className="container">
         <img
-          src="/images/Home-Hero-2.jpg"
+          src="/images/Home/Home-Hero-2.webp"
           alt=""
           className="relative object-cover w-full h-[400px] md:h-[450px] lg:h-[570px] top-12 rounded-[2rem]"
         />

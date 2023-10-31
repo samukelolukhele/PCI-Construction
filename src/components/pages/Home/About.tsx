@@ -1,15 +1,27 @@
-import React from "react";
+import React, { useEffect } from "react";
 import Button from "../../Button";
+import Aos from "aos";
 
 const About = () => {
+  useEffect(() => {
+    Aos.init();
+  }, []);
   return (
     <div className="relative pt-12 md:mb-[400px] lg:mb-28 flex flex-col lg:flex-row-reverse bg-brandBg lg:bg-white mb-[280px] w-full">
       <div className="flex container items-start flex-col gap-8 lg:h-[500px] lg:justify-center bg-brandBg pb-[200px] lg:pb-16 py-16  lg:pl-32 lg:rounded-l-lg">
         <p className="text-brand font-bold">About Us</p>
-        <h1 className="header-text text-5xl lg:text-5xl text-gradient-main">
+        <h1
+          className="header-text text-5xl lg:text-5xl text-gradient-main"
+          data-aos="fade-up"
+          data-duration="1000"
+        >
           Experience you can count on
         </h1>
-        <p className="text-brandSecondary font-light">
+        <p
+          className="text-brandSecondary font-light"
+          data-aos="fade-up"
+          data-duration="1000"
+        >
           Our team of experienced professionals have the expertise to bring even
           the most complex projects to life. With our years of experience and
           proven track record, we guarantee quality results that meet your

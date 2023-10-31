@@ -1,10 +1,20 @@
-import React from "react";
+import React, { useEffect } from "react";
 import Button from "../../Button";
 import { AiOutlineArrowRight } from "react-icons/ai";
+import Aos from "aos";
+import "aos/dist/aos.css";
 
 const Quote = () => {
+  useEffect(() => {
+    Aos.init();
+  }, []);
+
   return (
-    <div className="relative overflow-hidden z-[1] flex flex-col gap-4 justify-end rounded-b-[2rem] md:rounded-[2rem] container mx-auto bg-[url(/images/Home-Quote-Bg.jpg)] bg-cover bg-center bg-no-repeat h-screen md:h-[70vh] lg:h-screen mb-16">
+    <div
+      data-aos="zoom-in-up"
+      data-aos-duration="1000"
+      className="relative overflow-hidden z-[1] flex flex-col gap-4 justify-end rounded-b-[2rem] md:rounded-[2rem] container mx-auto bg-[url(/images/Home/Home-Quote-Bg.webp)] bg-cover bg-center bg-no-repeat h-screen md:h-[70vh] lg:h-screen mb-16"
+    >
       <div className="absolute z-[2] inset-0 bg-black opacity-60" />
       <div className="flex mx-2 lg:mx-0 flex-col gap-4 z-10 lg:w-8/12">
         <p className="text-brand font-bold z-10">GET A QUOTE</p>

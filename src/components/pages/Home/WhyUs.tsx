@@ -1,15 +1,20 @@
-import React from "react";
+import React, { useEffect } from "react";
 import Button from "../../Button";
 import {
   BsFillCalculatorFill,
   BsFillBuildingFill,
-  BsFillClipboardDataFill,
   BsFillPeopleFill,
 } from "react-icons/bs";
 import { AiOutlineArrowRight } from "react-icons/ai";
 import IconWidget from "../../IconWidget";
+import Aos from "aos";
+import "aos/dist/aos.css";
 
 const WhyUs = () => {
+  useEffect(() => {
+    Aos.init();
+  }, []);
+
   const widgets = [
     {
       iconBg: "bg-yellow-400",
@@ -36,10 +41,14 @@ const WhyUs = () => {
       <div className="flex flex-col lg:flex-row gap-8 lg:text-left lg:items-center text-center justify-between">
         <div className="flex flex-col gap-4 lg:w-7/12">
           <p className="text-brand font-bold">OUR PROCESS</p>
-          <h1 className="text-4xl lg:text-6xl font-bold text-brandBg">
+          <h1
+            className="text-4xl lg:text-6xl font-bold text-brandBg"
+            data-aos="fade-up"
+            data-aos-duration="1000"
+          >
             How We Consistently Provide Excellence
           </h1>
-          <p>
+          <p data-aos="fade-up" data-aos-duration="1000" data-aos-offset="300">
             We believe that collaboration is key to a successful construction
             project. Our team of experienced professionals will work closely
             with you from the initial planning stages to completion, ensuring

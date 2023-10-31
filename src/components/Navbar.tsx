@@ -11,7 +11,8 @@ type NLProps = {
 
 const NavLinks = ({ active, click }: NLProps) => {
   const activeStyling: string = "relative opacity-100 translate-y-0";
-  const inactiveStyling: string = "absolute opacity-0 -translate-y-full";
+  const inactiveStyling: string =
+    "absolute opacity-0 -translate-y-[20px] pointer-events-none lg:pointer-events-auto";
 
   return (
     <div
@@ -21,11 +22,19 @@ const NavLinks = ({ active, click }: NLProps) => {
        [&>:nth-child(odd)]:lg:bg-transparent lg:py-0 font-extralight lg:font-normal text-xl 
        lg:w-fit lg:text-brandSecondary py-8 w-full text-white justify-center lg:gap-4 lg:relative lg:opacity-100 lg:translate-y-0`}
     >
-      <Link onClick={click} className="w-full text-center py-8" to="/">
+      <Link
+        onClick={click}
+        className="w-full text-center py-8 hover:text-brand"
+        to="/"
+      >
         Home
       </Link>
 
-      <Link onClick={click} className="w-full text-center py-8" to="/about">
+      <Link
+        onClick={click}
+        className="w-full text-center py-8 hover:text-brand"
+        to="/about"
+      >
         About
       </Link>
 
@@ -33,7 +42,11 @@ const NavLinks = ({ active, click }: NLProps) => {
         Services
       </Link> */}
 
-      <Link onClick={click} className="w-full text-center py-8" to="/contact">
+      <Link
+        onClick={click}
+        className="w-full text-center py-8 hover:text-brand"
+        to="/contact"
+      >
         Contact
       </Link>
     </div>
@@ -46,7 +59,7 @@ const Navbar = () => {
   const { isTablet } = useMedia();
 
   return (
-    <nav className="relative flex flex-col bg-brandBg text-white items-center justify-between w-full py-4 lg:py-4">
+    <nav className="relative flex flex-col bg-brandBg text-white items-center justify-between w-full py-4 lg:py-0 mb--1">
       <div className="w-full flex justify-between items-center container">
         <div className="">
           <img src="/images/Logos/Logo.svg" alt="" className="" />

@@ -1,36 +1,41 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import { FaHammer, FaPencilAlt, FaPaintRoller } from "react-icons/fa";
 import { SiSparkfun } from "react-icons/si";
 import ServiceSlide from "./ServiceSlide.component";
 import { MdArrowForwardIos, MdArrowBackIos } from "react-icons/md";
 import useMedia from "../../hooks/useMedia";
+import Aos from "aos";
+import "aos/dist/aos.css";
 
 const Services = () => {
+  useEffect(() => {
+    Aos.init();
+  }, []);
   const [position, setPosition] = useState(0);
 
   const { isMobile } = useMedia();
 
   const slides = [
     {
-      image: "/images/Home-Service-3.jpg",
+      image: "/images/Home/Home-Service-3.webp",
       Icon: FaHammer,
       text: "Our team of expert engineers will ensure nothing but the most exceptional results.",
       heading: "Building",
     },
     {
-      image: "/images/Home-Service-1.jpg",
+      image: "/images/Home/Home-Service-1.webp",
       heading: "Planning",
       Icon: FaPencilAlt,
       text: "With our team of architects we will ensure nothing but the highest quality design plans for your project.",
     },
     {
-      image: "/images/Home-Hero.jpg",
+      image: "/images/Home/Home-Hero.webp",
       heading: "Designing",
       Icon: FaPaintRoller,
       text: "We will assist with desing to ensure you get the best result out of your project.",
     },
     {
-      image: "/images/Home-Service-1.jpg",
+      image: "/images/Home/Home-Service-2.webp",
       heading: "Welding",
       Icon: SiSparkfun,
       text: "We provide the best welding services. We use ISO9000 standards so you can be sure of the highest quality service.",
@@ -55,8 +60,10 @@ const Services = () => {
     <div className="container pt-30 flex flex-col gap-4 overflow-hidden my-20">
       <div className="flex flex-col gap-4 justify-center text-brandBg lg:w-6/12">
         <p className="font-bold text-brand">Our Services</p>
-        <h1 className="header-text">High Quality Services</h1>
-        <p>
+        <h1 className="header-text" data-aos="fade-up" data-aos-duration="1000">
+          High Quality Services
+        </h1>
+        <p data-aos="fade-up" data-duration="1000">
           At PCI Construction, we are passionate about bringing your dreams to
           life. With our extensive experience and expertise in the construction
           industry, we have what it takes to turn your vision into reality.
