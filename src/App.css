@@ -76,7 +76,7 @@ img {
 }
 
 .btn-secondary {
-  @apply bg-brandSecondary text-black;
+  @apply bg-brandBg text-white;
 }
 
 .btn-outline {
